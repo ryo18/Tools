@@ -1,4 +1,4 @@
-1. [clickme](data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pgo=) (<script>alert(1)</script>
-)
+1. [clickme](data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pgo=)
 2. [totallyharmlesslink](javascript:window.onerror=alert;throw%201)
+3. <body onload=alert(document.cookie)>
 

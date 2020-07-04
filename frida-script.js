@@ -1,7 +1,7 @@
 // webview loadurl("java.lang.String","java.Util.Map")
 Java.perform(function(){
   var Webview = Java.use("android.webkit.WebView");
-  Webbiew.loadUrl.overload("java.lang.String","java.Util.Map").implementation = function(url,data){
+  Webview.loadUrl.overload("java.lang.String","java.Util.Map").implementation = function(url,data){
     console.log("\n[+]Loading URL from: ",url);
     console.log("\n[+]Setting the value of setWebContentsDebuggingEnable() to True");
     this.setWebContentsDebuggingEnabled(true);
